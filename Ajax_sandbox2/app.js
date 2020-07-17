@@ -12,7 +12,7 @@ function createPost(post){
             const error = false;
 
             if(!error){
-                resolve()
+                resolve();
             } else {
                 reject("Error: something wrong");
             }
